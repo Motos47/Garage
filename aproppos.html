@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promotions - Motos 47</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Motos 47</h1>
+    <p class="sous_titre">Votre spécialiste scooter à Marseille</p>
+    <nav>
+      <button id="menu-toggle" aria-label="Open Menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+      </button>
+      <ul id="menu">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="pieces.html">Pièces</a></li>
+          <li><a href="aproppos.html">À propos de nous</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  </header>
+  <main>
+    <section id="accueil">
+      <h2>Bienvenue chez Motos 47</h2>
+      <p>Nous sommes un garage spécialisé dans la réparation et l'entretien de scooters. Nous proposons également un large choix de pièces détachées et d'accessoires.</p>
+      <a href="services.html">En savoir plus</a>
+    </section>
+    <section id="services">
+      <h2>Nos services</h2>
+      <ul>
+        <li>Réparation et entretien de scooters .</li>
+        <li>Vente de pièces détachées et d'accessoires .</li>
+        <li>Forfaits d'entretien</li>
+        <li>Dépannage .</li>
+      </ul>
+      <a href="./services.html">Voir tous nos services</a>
+    </section>
+    <section id="pieces">
+      <h2>Pièces détachées</h2>
+      <p>Nous proposons un large choix de pièces détachées pour toutes les marques de scooters.</p>
+      <a href="./pieces.html">Voir toutes nos pièces</a>
+    </section>
+    <section id="promotions">
+      <h2>Promotions en cours</h2>
+      <p>Profitez de nos promotions du moment sur une sélection de pièces et d'accessoires.</p>
+      <a href="index.html">Voir toutes nos promotions</a>
+    </section>
+    <section id="./contact">
+      <h2>Contactez-nous</h2>
+      <p>N'hésitez pas à nous contacter pour toute question ou pour prendre rendez-vous.</p>
+      <ul>
+        <li>Téléphone: 09.73.23.02.45</li>
+        <li>Email: motos47.13006@gmail.com</li>
+        <li>Adresse: 47 Cours Lieutaud 13006 Marseille</li>
+      </ul>
+      <a href="./contact.html">Formulaire de contact</a>
+    </section>
+  </main>
+  <footer>
+    <p class="sous_titre">&copy; 2024 - Motos 47  <address class="adresse">47 Cours Lieutaud 13006 Marseille  Tél : 09.73.29.02.45</address> </p>
+  </footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var menuToggle = document.getElementById('menu-toggle');
+        var menu = document.getElementById('menu');
+
+        menuToggle.addEventListener('click', function() {
+            menu.classList.toggle('active');
+        });
+    });
+  </script>
+</body>
+</html>

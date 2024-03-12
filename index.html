@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Motos 47</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Motos 47</h1>
+    <!-- <p class="sous_titre">Votre spécialiste scooter à Marseille</p> -->
+      <nav>
+        <button id="menu-toggle" aria-label="Open Menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </button>
+        <ul id="menu">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="services.html">Révision et entretien</a></li>
+            <li><a href="pieces.html">Pièces</a></li>
+            <li><a href="aproppos.html">À propos de nous</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="mon_panier.html" id="panier-link">Panier</a></li>
+
+        </ul>
+      </nav>
+  </header>
+  
+  <main>
+    <h2>Promotions en cours</h2>
+    <p>Profitez de nos promotions du moment sur une sélection de pièces et d'accessoires!</p>
+    <ul id="promotionsList">
+        <li class="produit">
+            <a href="batterie.html"><img src="./img/Batterie/batterie_yuaza.jpg" alt="Produit 1"></a>
+            <a href="batterie.html"><h3>Batterie</h3></a>
+            <div class="prix">
+              <span class="ancien-prix"></span>
+              <span class="prix-promo"></span>
+              <span class="reduction_index">-20%</span>
+            </div>
+          </li>
+
+          <li class="produit">
+            <a href="huile.html"><img src="./img/ipone.jpg" alt="Produit 1"></a>
+            <h3>Huile Moteur</h3>
+            <div class="prix">
+              <span class="ancien-prix"></span>
+              <span class="prix-promo"></span>
+              <span class="reduction_index">-20%</span>
+            </div>
+          </li>
+
+        <li class="produit">
+            <img src="./img/KIT-ENTRETIEN-157054.jpg" alt="Produit 1">
+            <h3>Kit révision</h3>
+            <div class="prix">
+              <span class="ancien-prix"></span>
+              <span class="prix-promo"></span>
+              <span class="reduction_index">-20%</span>
+            </div>
+          </li>
+
+          <li class="produit">
+            <img src="./img/pneu_deestone_d825_4pr_52s_tl_taille_3.00-16_11070-16.jpg" alt="Produit 1">
+            <h3>Pneus Deli Urban </h3>
+            <div class="prix">
+              <span class="ancien-prix"></span>
+              <span class="prix-promo"></span>
+              <span class="reduction_index">-25%</span>
+            </div>
+          </li>
+
+          <li class="produit">
+            <img src="./img/cyl_yam.jpg" alt="Produit 1">
+            <h3>Pièces Moteur</h3>
+            <div class="prix">
+              <span class="ancien-prix"></span>
+              <span class="prix-promo"></span>
+              <span class="reduction_index">-20%</span>
+            </div>
+          </li>
+          
+          <li class="produit">
+            <img src="./img/Bougie/bougie.jpg" alt="Produit 1">
+            <h3>Bougie NGK</h3>
+            <div class="prix">
+              <span class="ancien-prix"></span>
+              <span class="prix-promo"></span>
+              <span class="reduction_index">-20%</span>
+            </div>
+          </li>
+
+          <li class="produit">
+            <img src="./img/Kit_Zip/noir_briant.jpg" alt="Produit 1">
+            <h3>Carrénage</h3>
+            <div class="prix">
+              <span class="ancien-prix"></span>
+              <span class="prix-promo"></span>
+              <span class="reduction_index">-25%</span>
+            </div>
+          </li>
+
+          <li class="produit">
+            <img src="./img/x1280y0img285974_.jpg" alt="Produit 1">
+            <h3>Pot Echappement</h3>
+            <div class="prix">
+              <span class="ancien-prix"></span>
+              <span class="prix-promo"></span>
+              <span class="reduction_index">-20%</span>
+            </div>
+          </li>
+
+          <li class="produit">
+            <img src="./img/casque-hjc-f31-ludi.jpg" alt="Produit 1">
+            <h3>Equipements Pilote</h3>
+            <div class="prix">
+              <span class="ancien-prix"></span>
+              <span class="prix-promo"></span>
+              <span class="reduction_index">-20%</span>
+            </div>
+          </li>
+          
+        <li class="produit">
+          <img src="./img/bulle-sport-t-max-560-2020.jpg" alt="Produit 1">
+          <h3>Kit révision</h3>
+          <div class="prix">
+            <span class="ancien-prix"></span>
+            <span class="prix-promo"></span>
+            <span class="reduction_index">-15%</span>
+          </div>
+        </li>
+
+
+      </ul>
+  </main>
+        <!-- Panier -->
+        <aside id="panier">
+          <h2>Panier</h2>
+          <table>
+              <thead>
+                  <tr>
+                      <th>Produit</th>
+                      <th>Prix</th>
+                      <th>Action</th>
+                  </tr>
+              </thead>
+              <tbody id="panier-liste">
+                  <!-- La liste des articles ajoutés au panier sera affichée ici -->
+              </tbody>
+              <tfoot>
+                  <tr>
+                      <td colspan="2">Total</td>
+                      <td id="total">0€</td>
+                  </tr>
+              </tfoot>
+          </table>
+      </aside>
+  <footer>
+    <p class="sous_titre">&copy; 2024 - Motos 47  <address class="adresse">47 Cours Lieutaud 13006 Marseille  Tél : 09.73.29.02.45</address> </p>
+  </footer>
+  <!-- Inclusion du fichier JavaScript externe -->
+  <script src="script.js"></script>
+</body>
+</html>
