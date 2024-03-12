@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Motos 47</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Motos 47</h1>
+    <!-- <p class="sous_titre">Votre spécialiste scooter à Marseille</p> -->
+      <nav>
+        <button id="menu-toggle" aria-label="Open Menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </button>
+        <ul id="menu">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="services.html">Révision et entretien</a></li>
+            <li><a href="#pieces">Pièces</a></li>
+            <li><a href="aproppos.html">À propos de nous</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="mon_panier.html" id="panier-link">Panier</a></li>
+
+        </ul>
+      </nav>
+  </header>
+  
+  <main>
+    <h2>Kiit Révision</h2>
+    <p>Profitez de nos promotions du moment sur une sélection de Kit Révision!</p>
+    <ul id="promotionsList">
+        <li class="produit">
+            <img src="./kit_revision/KIT-ENTRETIEN-157054.jpg" alt="Produit 1">
+            <h3>kit revision complète</h3>
+            <h5>VESPA PRIMAVERA</h5>
+            <div class="prix">
+              <span class="ancien-prix">90€</span>
+              <span class="prix-promo">70€</span>
+              <span class="reduction">-20%</span>
+            </div>
+            <a href="#" class="ajouter-panier">Ajouter au panier</a>
+          </li>
+          <li class="produit">
+            <img src="./kit_revision/KIT-ENTRETIEN-fly.jpg" alt="Produit 1">
+            <h3>kit revision complète</h3>
+            <h5>PIAGGIO FLY</h5>
+            <div class="prix">
+              <span class="ancien-prix">100€</span>
+              <span class="prix-promo">80€</span>
+              <span class="reduction">-20%</span>
+            </div>
+            <a href="#" class="ajouter-panier">Ajouter au panier</a>
+          </li>
+          <li class="produit">
+            <img src="./kit_revision/KIT-ENTRETIEN-zip.jpg" alt="Produit 1">
+            <h3>kit revision complète</h3>
+            <h5>PIAGGIO ZIP</h5>
+            <div class="prix">
+              <span class="ancien-prix">90€</span>
+              <span class="prix-promo">70€</span>
+              <span class="reduction">-20%</span>
+            </div>
+            <a href="#" class="ajouter-panier">Ajouter au panier</a>
+          </li>
+
+      </ul>
+  </main>
+        <!-- Panier -->
+        <aside id="panier">
+          <h2>Panier</h2>
+          <table>
+              <thead>
+                  <tr>
+                      <th>Produit</th>
+                      <th>Prix</th>
+                      <th>Action</th>
+                  </tr>
+              </thead>
+              <tbody id="panier-liste">
+                  <!-- La liste des articles ajoutés au panier sera affichée ici -->
+              </tbody>
+              <tfoot>
+                  <tr>
+                      <td colspan="2">Total</td>
+                      <td id="total">0€</td>
+                  </tr>
+              </tfoot>
+          </table>
+      </aside>
+  <footer>
+    <p class="sous_titre">&copy; 2024 - Motos 47  <address class="adresse">47 Cours Lieutaud 13006 Marseille  Tél : 09.73.29.02.45</address> </p>
+  </footer>
+  <!-- Inclusion du fichier JavaScript externe -->
+  <script src="script.js"></script>
+</body>
+</html>
