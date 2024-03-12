@@ -399,3 +399,31 @@ footer {
       border: 1px solid #ddd;
   }  
 }
+
+#promo-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: white; */
+  /* padding: 20px; */
+  /* border: 2px solid black; */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  width: 75%;
+}
+
+#promo-popup img {
+  max-width: 100%;
+  height: auto;
+}
+
+#promo-popup #close-btn {
+  position: absolute;
+  top: -2px;
+  right: -17px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+

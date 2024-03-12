@@ -13,6 +13,11 @@ document.addEventListener('DOMContentLoaded', function() {
   menuToggle.addEventListener('click', function() {
     menu.classList.toggle('active');
   });
+
+  document.getElementById("close-btn").addEventListener("click", function() {
+    document.getElementById("promo-popup").style.display = "none";
+  });
+  
   
 
   // Fonction pour ajouter un article au panier
