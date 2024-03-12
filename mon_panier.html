@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Motos 47</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Motos 47</h1>
+    <p class="sous_titre">Votre spécialiste scooter à Marseille</p>
+      <nav>
+        <button id="menu-toggle" aria-label="Open Menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </button>
+        <ul id="menu">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="pieces.html">Pièces</a></li>
+            <li><a href="aproppos.html">À propos de nous</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#panier" id="panier-link">Panier</a></li>
+
+        </ul>
+      </nav>
+  </header>
+  
+  <main>
+        <!-- Panier -->
+        <aside id="panier">
+          <h2>Panier</h2>
+          <table>
+              <thead>
+                  <tr>
+                      <th>Produit</th>
+                      <th>Prix</th>
+                      <th>Action</th>
+                  </tr>
+              </thead>
+              <tbody id="panier-liste">
+                  <!-- La liste des articles ajoutés au panier sera affichée ici -->
+              </tbody>
+              <tfoot>
+                  <tr>
+                      <td colspan="2">Total</td>
+                      <td id="total">0€</td>
+                  </tr>
+              </tfoot>
+          </table>
+      </aside>
+      <footer>
+        <!-- Autres éléments du pied de page -->
+        <!-- Ajoutez les boutons "Vider le panier" et "Valider le panier" ici -->
+        <button id="vider-panier">Vider le panier</button>
+        <button id="valider-panier">Valider le panier</button>
+      </footer>
+      
+
+  </main>
+
+  <footer>
+    <p class="sous_titre">&copy; 2024 - Motos 47  <address class="adresse">47 Cours Lieutaud 13006 Marseille  Tél : 09.73.29.02.45</address> </p>
+  </footer>
+  <!-- Inclusion du fichier JavaScript externe -->
+  <script src="script.js"></script>
+</body>
+</html>
