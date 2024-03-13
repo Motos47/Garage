@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promotions - Motos 47</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Motos 47</h1>
+    <!-- <p class="sous_titre">Votre spécialiste scooter à Marseille</p> -->
+    <nav>
+      <button id="menu-toggle" aria-label="Open Menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+      </button>
+      <ul id="menu">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="services.html">Révision et entretien</a></li>
+          <li><a href="pieces.html">Pièces</a></li>
+          <li><a href="aproppos.html">À propos de nous</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  </header>
+  <main>
+    <h2>Nos services</h2>
+    <p>Nous sommes à votre disposition pour l'entretien et la réparation de votre scooter.</p>
+    <section id="servicesList">
+      <img src="./Videnge.jpg" alt="Vidange">
+      <img src="./Videnge_50_ENI.jpg" alt="Vidange scooter 50">
+      <img src="./img/KIT-ENTRETIEN-157054.jpg" alt="">
+
+      <h3>Révision et entretien</h3>
+      <p>Nous proposons différents forfaits de révision et d'entretien pour votre scooter, afin de garantir son bon fonctionnement et sa sécurité.</p>
+
+      <ul>
+        <li>Petite révision: vidange et remplacement du filtre à huile</li>
+        <li>Révision standard: vidange, filtres à huile et air, contrôle des niveaux</li>
+        <li>Grande révision: révision standard + contrôle et graissage des éléments mécaniques</li>
+
+
+
+      </ul>
+      <h3>Réparation</h3>
+      <p>Nos mécaniciens qualifiés prennent en charge toutes les réparations de votre scooter, quelle que soit la panne.</p>
+      <img src="./img/Entretien_scooter_BikeUp.jpg" alt="">
+
+      <ul>
+        <li>Moteur et transmission</li>
+        <li>Freinage</li>
+        <li>Electricité et éclairage</li>
+        <li>Pneumatiques</li>
+        <li>Carrosserie</li>
+      </ul>
+      <h3>Autres services</h3>
+      <ul>
+        <li>Dépannage</li>
+        <li>Montage d'accessoires</li>
+        <li>Conseil et expertise</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p class="sous_titre">&copy; 2024 - Motos 47  <address class="adresse">47 Cours Lieutaud 13006 Marseille  Tél : 09.73.29.02.45</address> </p>
+  </footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var menuToggle = document.getElementById('menu-toggle');
+        var menu = document.getElementById('menu');
+
+        menuToggle.addEventListener('click', function() {
+            menu.classList.toggle('active');
+        });
+    });
+  </script>
+</body>
+</html>
