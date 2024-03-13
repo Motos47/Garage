@@ -102,9 +102,7 @@ nav ul li a {
     border-bottom: 1px solid #c4c4c4;
     height: 25px;
     font-family: Roboto, Verdana, Arial;
-    font-size: 14pt;
-}
-}  
+    font-size: 14pt;}}  
   
 main {
     width: 80%;
@@ -176,9 +174,7 @@ a:hover {
     justify-content: space-between;
     border-radius: 2%;
     box-shadow: 1px 1px 15px #cbcbcb;
-  }
-
-  
+  }  
   .produit img {
     width: 85%;
     height: auto;
@@ -210,10 +206,7 @@ a:hover {
     font-weight: bold;
     font-size: 14px;
 
-  }
-  
-
-  
+  }  
   .reduction {
     background-color: red;
     color: white;
@@ -258,19 +251,6 @@ p {
   font-size: 16px;
 }
 
-/* ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  padding: 10px;
-  border-bottom: 1px solid #ddd;
-} */
-
-/* fin */
-
 #servicesList {
   /* display: flex; */
   flex-wrap: wrap;
@@ -288,8 +268,6 @@ li {
     margin-top: 10px;
   }
 }
-
-
 
 #panier {
   margin-top: 20px;
@@ -375,24 +353,15 @@ footer {
     #promotionsList {
       justify-content: space-around;
     }
-
-    
-
     .produit {
       width: 45%; /* Make products full width on very small screens */
       margin: 3px;
     }
-
-
-
     .produit img {
       width: 100%;
       height: auto;
       margin-bottom: -10px;
   }
-
-    
-
     .prix {
       margin-top: 10px;
       padding: 4px;
